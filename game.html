@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+<img src="assets/LOGO.png" id="title">
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="game.html">Design A Monster</a></li>
+  <li><a href="trailer.html">Trailer</a></li>
+  <li><a href="demo.html">demo</a></li>
+</ul>
+<h1><center><U>Design a Monster!</U></center></h1>
+
+    <center><canvas id="canvas" width="500" height="500"> </canvas>
+	<p><center><input id="clearCanvas" type="button" value="Clear" onClick="clearCanvas()">
+   	<button onClick = "Save()" type="button">Save</button>
+   	<input id="Load" type="button" value="Load" onClick="Load()"> </center>
+    </p>
+    <script src="JS/canvas.js"></script>
+</body>
+</html>
